@@ -2,7 +2,7 @@
   {
     "name": "Solana",
     "short": "SOL",
-    "img": "/crypto/sol.png",
+    "img": "/crypto-watcher/crypto/sol.png",
     "units": [
       {
         "unitName": "SOL",
@@ -18,7 +18,7 @@
   {
     "name": "Bitcoin",
     "short": "BTC",
-    "img": "/crypto/btc.png",
+    "img": "/crypto-watcher/crypto/btc.png",
     "units": [
       {
         "unitName": "BTC",
@@ -42,7 +42,7 @@
   {
     "name": "Ethereum",
     "short": "ETH",
-    "img": "/crypto/eth.png",
+    "img": "/crypto-watcher/crypto/eth.png",
     "units": [
       {
         "unitName": "ETH",
@@ -62,7 +62,7 @@
   {
     "name": "Polygon",
     "short": "MATIC",
-    "img": "/crypto/pol.png",
+    "img": "/crypto-watcher/crypto/pol.png",
     "units": [
       {
         "unitName": "MATIC",
@@ -78,7 +78,7 @@
   {
     "name": "Polkadot",
     "short": "DOT",
-    "img": "/crypto/dot.png",
+    "img": "/crypto-watcher/crypto/dot.png",
     "units": [
       {
         "unitName": "DOT",

@@ -58,7 +58,9 @@ const CryptoCard = ({ isFullView, isCenter, slide }: CryptoCardProps) => {
           className="mt-4 ml-auto p-3"
           alt={slide.isFavorite ? "Ulubione" : "Nieulubione"}
           src={
-            slide.isFavorite ? "icons/heart-full.svg" : "icons/heart-empty.svg"
+            slide.isFavorite
+              ? "crypto-watcher/icons/heart-full.svg"
+              : "crypto-watcher/icons/heart-empty.svg"
           }
         />
       </button>

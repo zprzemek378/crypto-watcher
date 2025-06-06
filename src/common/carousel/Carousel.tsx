@@ -77,10 +77,10 @@ const Carousel = ({ slides, isFullView }: CarouselProps) => {
       </div>
       <div className="flex justify-center gap-20 mt-16 mb-8">
         <button onClick={() => sliderRef.current?.slickPrev()}>
-          <img src="icons/arrow-left.svg" />
+          <img src="crypto-watcher/icons/arrow-left.svg" />
         </button>
         <button onClick={() => sliderRef.current?.slickNext()}>
-          <img src="icons/arrow-right.svg" />
+          <img src="crypto-watcher/icons/arrow-right.svg" />
         </button>
       </div>
     </div>
