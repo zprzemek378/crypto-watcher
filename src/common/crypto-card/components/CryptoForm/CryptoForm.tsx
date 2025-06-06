@@ -38,6 +38,10 @@ const CryptoForm = ({ slide }: CryptoFormProps) => {
         balance: Number(amount) * unitMultiplier,
       })
     );
+
+    setAmount("");
+    setUnitName("");
+    setComment("");
   };
 
   const validate = () => {
