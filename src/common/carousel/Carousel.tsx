@@ -4,6 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import CryptoCard from "../crypto-card/CryptoCard";
 import type { CryptoToken } from "../../features/crypto/cryptoSlice";
+import arrowLeftIcon from "../../assets/icons/arrow-left.svg";
+import arrowRightIcon from "../../assets/icons/arrow-right.svg";
 
 type CarouselProps = {
   slides: CryptoToken[];
@@ -77,10 +79,10 @@ const Carousel = ({ slides, isFullView }: CarouselProps) => {
       </div>
       <div className="flex justify-center gap-20 mt-16 mb-8">
         <button onClick={() => sliderRef.current?.slickPrev()}>
-          <img src="crypto-watcher/icons/arrow-left.svg" />
+          <img src={arrowLeftIcon} />
         </button>
         <button onClick={() => sliderRef.current?.slickNext()}>
-          <img src="crypto-watcher/icons/arrow-right.svg" />
+          <img src={arrowRightIcon} />
         </button>
       </div>
     </div>

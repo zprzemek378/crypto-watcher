@@ -6,6 +6,8 @@ import {
   type CryptoToken,
 } from "../../features/crypto/cryptoSlice";
 import { useAppDispatch } from "../../app/hooks";
+import heartEmptyIcon from "../../assets/icons/heart-empty.svg";
+import heartFullIcon from "../../assets/icons/heart-full.svg";
 
 type CryptoCardProps = {
   isFullView: boolean;
@@ -57,11 +59,7 @@ const CryptoCard = ({ isFullView, isCenter, slide }: CryptoCardProps) => {
         <img
           className="mt-4 ml-auto p-3"
           alt={slide.isFavorite ? "Ulubione" : "Nieulubione"}
-          src={
-            slide.isFavorite
-              ? "crypto-watcher/icons/heart-full.svg"
-              : "crypto-watcher/icons/heart-empty.svg"
-          }
+          src={slide.isFavorite ? heartFullIcon : heartEmptyIcon}
         />
       </button>
     </Box>
