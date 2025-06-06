@@ -25,7 +25,7 @@ function App() {
   }, INCREASE_INTERVAL_IN_SECONDS * 1000);
 
   return (
-    <Router>
+    <Router basename="/crypto-watcher">
       <MainLayout>
         <Routes>
           <Route path="/" element={<Favorites />} />
