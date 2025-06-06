@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Solana",
+    "short": "SOL",
+    "img": "/crypto/sol.png",
+    "units": [
+      {
+        "unitName": "SOL",
+        "unit": 1
+      },
+      {
+        "unitName": "lamport",
+        "unit": 1000000000
+      }
+    ],
+    "currentPrice": 200
+  },
+  {
+    "name": "Bitcoin",
+    "short": "BTC",
+    "img": "/crypto/btc.png",
+    "units": [
+      {
+        "unitName": "BTC",
+        "unit": 1
+      },
+      {
+        "unitName": "mBTC",
+        "unit": 0.001
+      },
+      {
+        "unitName": "μBTC",
+        "unit": 0.000001
+      },
+      {
+        "unitName": "satoshi",
+        "unit": 0.00000001
+      }
+    ],
+    "currentPrice": 93200
+  },
+  {
+    "name": "Ethereum",
+    "short": "ETH",
+    "img": "/crypto/eth.png",
+    "units": [
+      {
+        "unitName": "ETH",
+        "unit": 1
+      },
+      {
+        "unitName": "Gwei",
+        "unit": 0.000000001
+      },
+      {
+        "unitName": "Wei",
+        "unit": 0.000000000000000001
+      }
+    ],
+    "currentPrice": 3200
+  },
+  {
+    "name": "Polygon",
+    "short": "MATIC",
+    "img": "/crypto/pol.png",
+    "units": [
+      {
+        "unitName": "MATIC",
+        "unit": 1
+      },
+      {
+        "unitName": "wei",
+        "unit": 0.000000000000000001
+      }
+    ],
+    "currentPrice": 0.52
+  },
+  {
+    "name": "Polkadot",
+    "short": "DOT",
+    "img": "/crypto/dot.png",
+    "units": [
+      {
+        "unitName": "DOT",
+        "unit": 1
+      },
+      {
+        "unitName": "Planck",
+        "unit": 0.0000000001
+      }
+    ],
+    "currentPrice": 7.2
+  }
+]
